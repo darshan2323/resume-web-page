@@ -1,0 +1,90 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:calibri;
+}
+.main{
+    width:80%;
+    flex-basis: content;
+    margin:30px auto;
+    background-color: aquamarine;
+    border: black solid 1px ;
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    width:35%;
+    background-image: linear-gradient(rgb(134, 181, 244),rgb(86, 246, 214));
+    border:groove 0.5px;
+    padding-left: 20px;
+}
+.h3{
+    font-weight: bold;
+}
+.box1{
+    width:25%;
+    height: 90px;
+    background-image: url(darshan1.jpg);
+    background-size: 100% 100%;
+    margin:15px auto;
+    border:0.8px solid black;
+    border-radius: 5px;
+}
+.box2{
+    margin-top:20px;
+    text-align: center;
+}
+strong{
+    font-size: x-large;
+}
+.box3{
+    display: flex;
+    flex-direction:column;
+    width:78%;
+    border:1px rgb(242, 137, 17) solid;
+    margin: 26px auto;
+    padding:15px;
+    border-radius: 5px;
+    line-height: 1.5; 
+}
+.box4{
+   margin-top: 10px;
+}
+.profile{
+    width:90%;
+    padding:15px;
+    line-height: 1.5;
+    border:2px rgb(236, 123, 25) solid;
+    display:flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.right{
+    width:65%;
+    background-color: rgb(157, 226, 237);
+    padding-left: 25px;
+}
+.profileR{
+    width:94%;
+    padding:15px;
+    line-height: 1.8;
+    border:2px rgb(77, 80, 80) solid;
+    display:flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    text-align: justify;
+}
+.box8{
+    margin-top: 30px;
+}
+.box9{
+    margin-top:15px;
+}
